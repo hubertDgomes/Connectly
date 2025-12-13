@@ -1,0 +1,7 @@
+@import "tailwindcss";
+html{
+    background: #FCF9EA;
+}
+@theme {
+  --font-Arimo: "Arimo", sans-serif; 
+}
