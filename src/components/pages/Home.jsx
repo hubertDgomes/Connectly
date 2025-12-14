@@ -13,71 +13,56 @@ const Home = () => {
   return (
     <>
       <section>
-        <Container>
-          <div className=" w-full flex justify-between items-center">
-            <div className="w-[25%] p-5">
-              <div className="w-full py-3 px-2 rounded-full hover:border-gray-300 hover:border hover:cursor-pointer hover:bg-[#eae8e0] hover:shadow-md ">
-                <div className="w-full flex items-center">
-                  <Images
-                    src={"/src/assets/person.jpg"}
-                    className={"w-11 h-11 rounded-full"}
-                  />
-                  <div className="ml-3 font-Arimo">
-                    <h3 className="text-[16px] font-bold">Alex Designer</h3>
-                    <h5 className="text-[12px] font-medium text-[#a4a5a6] ">
-                      @alex_UI
-                    </h5>
-                  </div>
-                  <HiDotsHorizontal className=" ml-[90px]" />
-                </div>
+        <div className="w-[30%] h-screen fixed overflow-y-scroll">
+          <div className="w-full py-3 px-2 rounded-full hover:border-gray-300 hover:border hover:cursor-pointer hover:bg-[#eae8e0] hover:shadow-md ">
+            <div className="w-full flex items-center">
+              <Images
+                src={"/src/assets/person.jpg"}
+                className={"w-11 h-11 rounded-full"}
+              />
+              <div className="ml-3 font-Arimo">
+                <h3 className="text-[16px] font-bold">Alex Designer</h3>
+                <h5 className="text-[12px] font-medium text-[#a4a5a6] ">
+                  @alex_UI
+                </h5>
               </div>
-              <div className="">
-                <button className="w-full mt-5 py-3 px-4 rounded-[10px] hover:border-gray-200 hover:cursor-pointer hover:bg-[#e0eae9] flex items-center gap-3 font-Arimo font-bold text-[18px] hover:text-sky-600">
-                  <FiHome />
-                  <span>Home</span>
-                </button>
-                <button className="w-full py-3 px-4 rounded-[10px] hover:border-gray-200 hover:cursor-pointer hover:bg-[#e0eae9] flex items-center gap-3 font-Arimo font-bold text-[18px] hover:text-sky-600">
-                  <FaHashtag />
-                  <span>Explore</span>
-                </button>
-                <button className="w-full py-3 px-4 rounded-[10px] hover:border-gray-200 hover:cursor-pointer hover:bg-[#e0eae9] flex items-center gap-3 font-Arimo font-bold text-[18px] hover:text-sky-600">
-                  <MdOutlineNotifications />
-                  <span>Notifications</span>
-                </button>
-                <button className="w-full py-3 px-4 rounded-[10px] hover:border-gray-200 hover:cursor-pointer hover:bg-[#e0eae9] flex items-center gap-3 font-Arimo font-bold text-[18px] hover:text-sky-600">
-                  <BiSolidMessageDetail />
-                  <span>Messages</span>
-                </button>
-                <button className="w-full py-3 px-4 rounded-[10px] hover:border-gray-200 hover:cursor-pointer hover:bg-[#e0eae9] flex items-center gap-3 font-Arimo font-bold text-[18px] hover:text-sky-600">
-                  <PiBookmarkSimpleBold />
-                  <span>Bookmarks</span>
-                </button>
-                <button className="w-full py-3 px-4 rounded-[10px] hover:border-gray-200 hover:cursor-pointer hover:bg-[#e0eae9] flex items-center gap-3 font-Arimo font-bold text-[18px] hover:text-sky-600">
-                 <CgProfile />
-                  <span>Profile</span>
-                </button>
-                <button className="w-full py-3 px-4 rounded-[10px] hover:border-gray-200 hover:cursor-pointer hover:bg-[#e0eae9] flex items-center gap-3 font-Arimo font-bold text-[18px] hover:text-sky-600">
-                  <IoSettingsOutline />
-                  <span>Settings</span>
-                </button>
-                <button className="w-full mt-5 bg-sky-600 hover:bg-sky-500 text-white font-Arimo font-bold text-[18px] py-3 px-4 rounded-full hover:cursor-pointer">
-                  <span>Create Post</span>
-                </button>
-              </div>
+              <HiDotsHorizontal className=" ml-[90px]" />
             </div>
-
-
-
-
-
-
-
-
-            {/* ############ */}
-            <div className="w-[50%]">b</div>
-            <div className="w-[25%]">c</div>
           </div>
-        </Container>
+          <div className="">
+            <button className="w-full mt-5 py-3 px-4 rounded-[10px] hover:border-gray-200 hover:cursor-pointer hover:bg-[#e0eae9] flex items-center gap-3 font-Arimo font-bold text-[18px] hover:text-sky-600">
+              <FiHome />
+              <span>Home</span>
+            </button>
+            <button className="w-full py-3 px-4 rounded-[10px] hover:border-gray-200 hover:cursor-pointer hover:bg-[#e0eae9] flex items-center gap-3 font-Arimo font-bold text-[18px] hover:text-sky-600">
+              <FaHashtag />
+              <span>Explore</span>
+            </button>
+            <button className="w-full py-3 px-4 rounded-[10px] hover:border-gray-200 hover:cursor-pointer hover:bg-[#e0eae9] flex items-center gap-3 font-Arimo font-bold text-[18px] hover:text-sky-600">
+              <MdOutlineNotifications />
+              <span>Notifications</span>
+            </button>
+            <button className="w-full py-3 px-4 rounded-[10px] hover:border-gray-200 hover:cursor-pointer hover:bg-[#e0eae9] flex items-center gap-3 font-Arimo font-bold text-[18px] hover:text-sky-600">
+              <BiSolidMessageDetail />
+              <span>Messages</span>
+            </button>
+            <button className="w-full py-3 px-4 rounded-[10px] hover:border-gray-200 hover:cursor-pointer hover:bg-[#e0eae9] flex items-center gap-3 font-Arimo font-bold text-[18px] hover:text-sky-600">
+              <PiBookmarkSimpleBold />
+              <span>Bookmarks</span>
+            </button>
+            <button className="w-full py-3 px-4 rounded-[10px] hover:border-gray-200 hover:cursor-pointer hover:bg-[#e0eae9] flex items-center gap-3 font-Arimo font-bold text-[18px] hover:text-sky-600">
+              <CgProfile />
+              <span>Profile</span>
+            </button>
+            <button className="w-full py-3 px-4 rounded-[10px] hover:border-gray-200 hover:cursor-pointer hover:bg-[#e0eae9] flex items-center gap-3 font-Arimo font-bold text-[18px] hover:text-sky-600">
+              <IoSettingsOutline />
+              <span>Settings</span>
+            </button>
+            <button className="text-center mt-5 bg-sky-600 hover:bg-sky-500 text-white font-Arimo font-bold text-[18px] py-3 px-4 rounded-full hover:cursor-pointer">
+              <span>Create Post</span>
+            </button>
+          </div>
+        </div>
       </section>
     </>
   );
