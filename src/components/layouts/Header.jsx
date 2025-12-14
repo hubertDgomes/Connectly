@@ -11,7 +11,7 @@ import { RxAvatar } from "react-icons/rx";
 const Header = () => {
   return (
     <>
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center sticky top-0 bg-[#FCF9EA] z-50">
         <div className="">
           <Images className={"w-32.5 ml-2"} src={logo} />
         </div>
