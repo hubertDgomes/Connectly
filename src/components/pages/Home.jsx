@@ -65,13 +65,123 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="w-[40%] overflow-scroll text-center flex justify-center items-center px-5">
-         <h1 className="font-bold font-Arimo text-[50px]">Your content goes to here.</h1>    
-      </div>
-      <div className="w-[30%]">
-        <h1>oihgioghfdogihdgih</h1>
-      </div>
-      </div>
+            {/* ############ */}
+            <div className="w-[50%]">b</div>
+            {/* ############ */}
+
+            <div className="w-[25%] pb-20">
+              <div className="w-full">
+                <h3 className="text-[17px] font-Arimo font-extrabold">
+                  Trends for you
+                </h3>
+                <div className="w-full flex  mt-5">
+                  <div className=" font-Arimo leading-6">
+                    <h5 className="text-[12px] font-medium text-[#a4a5a6] ">
+                      Technology - Trending
+                    </h5>
+                    <h3 className="text-[15px] font-bold hover:text-[#00A6F4]">#ReactJS</h3>
+                    <h5 className="text-[12px] font-medium text-[#a4a5a6] ">
+                      24.5k Posts
+                    </h5>
+                  </div>
+                  <HiDotsHorizontal className=" ml-[160px]" />
+                </div>
+                <div className="w-full flex  mt-5">
+                  <div className=" font-Arimo leading-6">
+                    <h5 className="text-[12px] font-medium text-[#a4a5a6] ">
+                      Design - Trending
+                    </h5>
+                    <h3 className="text-[15px] font-bold hover:text-[#00A6F4]">Figma Config</h3>
+                    <h5 className="text-[12px] font-medium text-[#a4a5a6] ">
+                      18.2k Posts
+                    </h5>
+                  </div>
+                  <HiDotsHorizontal className=" ml-[182px]" />
+                </div>
+                <div className="w-full flex  mt-5">
+                  <div className=" font-Arimo leading-6">
+                    <h5 className="text-[12px] font-medium text-[#a4a5a6] ">
+                      Business - Trending
+                    </h5>
+                    <h3 className="text-[15px] font-bold hover:text-[#00A6F4]">Startup Life</h3>
+                    <h5 className="text-[12px] font-medium text-[#a4a5a6] ">
+                      12k Posts
+                    </h5>
+                  </div>
+                  <HiDotsHorizontal className=" ml-[170px]" />
+                </div>
+                <div className="w-full flex  mt-5">
+                  <div className=" font-Arimo leading-6">
+                    <h5 className="text-[12px] font-medium text-[#a4a5a6] ">
+                      Sports - Trending
+                    </h5>
+                    <h3 className="text-[15px] font-bold hover:text-[#00A6F4]">Championship</h3>
+                    <h5 className="text-[12px] font-medium text-[#a4a5a6] ">
+                      56k Posts
+                    </h5>
+                  </div>
+                  <HiDotsHorizontal className=" ml-[174px]" />
+                </div>
+                <h6 className="hover:text-[#00A6F4] font-Arimo text-[13px] mt-5 ">
+                  Show more
+                </h6>
+              </div>
+              <h3 className="text-[17px] font-Arimo font-extrabold mt-5">
+                Who to follow
+              </h3>
+              <div className="w-full flex items-center mt-6">
+                <Images
+                  src={"/src/assets/person.jpg"}
+                  className={"w-11 h-11 rounded-full"}
+                />
+                <div className="ml-3 font-Arimo">
+                  <h3 className="text-[14px] font-bold hover:text-[#00A6F4]">James Wilson</h3>
+                  <h5 className="text-[12px] font-medium text-[#a4a5a6] ">
+                    @j_wilson
+                  </h5>
+                </div>
+                <button className="ml-[70px] bg-black hover:bg-sky-500 text-white font-Arimo font-bold text-[12px] py-1.5 px-3.5 rounded-full hover:cursor-pointer">
+                  Follow
+                </button>
+              </div>
+              <div className="w-full flex items-center mt-6">
+                <Images
+                  src={"/src/assets/person.jpg"}
+                  className={"w-11 h-11 rounded-full"}
+                />
+                <div className="ml-3 font-Arimo">
+                  <h3 className="text-[14px] font-bold hover:text-[#00A6F4]">Lisa Chen</h3>
+                  <h5 className="text-[12px] font-medium text-[#a4a5a6] ">
+                    @lisa_dev
+                  </h5>
+                </div>
+                <button className="ml-[95px] bg-black hover:bg-sky-500 text-white font-Arimo font-bold text-[12px] py-1.5 px-3.5 rounded-full hover:cursor-pointer">
+                  Follow
+                </button>
+              </div>
+              <div className="w-full flex items-center mt-6">
+                <Images
+                  src={"/src/assets/person.jpg"}
+                  className={"w-11 h-11 rounded-full"}
+                />
+                <div className="ml-3 font-Arimo">
+                  <h3 className="text-[14px] font-bold hover:text-[#00A6F4]">Tech Daily</h3>
+                  <h5 className="text-[12px] font-medium text-[#a4a5a6] ">
+                    @tachdaily
+                  </h5>
+                </div>
+                <button className="ml-[95px] bg-black hover:bg-sky-500 text-white font-Arimo font-bold text-[12px] py-1.5 px-3.5 rounded-full hover:cursor-pointer">
+                  Follow
+                </button>
+              </div>
+                <h6 className="hover:text-[#00A6F4] font-Arimo text-[13px] mt-5 ">
+                  Show more
+                </h6>
+                <p className="mt-6 text-[12px] pr-7.5 font-Arimo text-[#a4a5a6] ">Terms of Service Privacy Policy Cookie Policy Accessibility Ads info @2024 MySocial, Inc. </p>
+            </div>
+          </div>
+        {/* </Container> */}
+      {/* </section> */}
     </>
   );
 };
